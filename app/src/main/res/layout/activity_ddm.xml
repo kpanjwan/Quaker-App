@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.ttm.quaker.DDM"
+    android:background="@drawable/sack_background">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/thousand_kcal"
+            android:adjustViewBounds="true"/>
+        <ImageView
+            android:id="@+id/second"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:src="@drawable/twelve_kcal"
+            android:adjustViewBounds="true"/>
+        <ImageView
+            android:id="@+id/third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:src="@drawable/fifteen_kcal"
+            android:adjustViewBounds="true"/>
+        <ImageView
+            android:id="@+id/fourth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third"
+            android:src="@drawable/twenty_kcal"
+            android:adjustViewBounds="true"/>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

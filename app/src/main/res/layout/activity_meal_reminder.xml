@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttm.quaker.MealReminder"
+    android:background="@drawable/sack_background">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="35pt"
+    android:text="@string/why"
+    android:textAllCaps="false"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:textColor="#000000"
+    android:id="@+id/why"
+    />
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="46pt"
+    android:id="@+id/breakfast"
+    android:layout_below="@id/why"
+    android:background="#e90909"
+    android:weightSum="1"
+    android:paddingLeft="7pt"
+    android:paddingTop="2.5pt">
+
+    <TextView
+        android:id="@+id/brekkie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+            android:textSize="13pt"
+            android:textColor="#ffffff" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@id/brekkie"
+        android:id="@+id/breakoptions">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/picktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:layout_marginRight="2pt"
+        android:textSize="13pt" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_below="@id/picktime"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1pt"
+        android:id="@+id/Div1"
+        android:background="#c6a327"
+        android:layout_below="@+id/breakfast"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46pt"
+        android:id="@+id/Brunch"
+        android:layout_below="@id/Div1"
+        android:background="#e90909"
+        android:weightSum="1"
+        android:paddingLeft="7pt"
+        android:paddingTop="2.5pt">
+
+        <TextView
+            android:id="@+id/second_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brunch"
+            android:textSize="13pt"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below= "@id/second_meal"
+            android:id="@+id/brunchoptions">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/pickbrunchtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:layout_marginRight="2pt"
+            android:textSize="13pt"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch2"
+            android:layout_below="@id/pickbrunchtime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1pt"
+        android:id="@+id/Div2"
+        android:background="#c6a327"
+        android:layout_below="@+id/Brunch"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46pt"
+        android:id="@+id/Lunch"
+        android:layout_below="@id/Div2"
+        android:background="#e90909"
+        android:weightSum="1"
+        android:paddingLeft="7pt"
+        android:paddingTop="2.5pt">
+
+        <TextView
+            android:id="@+id/third_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch"
+            android:textSize="13pt"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below= "@id/third_meal"
+            android:id="@+id/lunchoptions">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/picklunchtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:layout_marginRight="2pt"
+            android:textSize="13pt"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch3"
+            android:layout_below="@id/picklunchtime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1pt"
+        android:id="@+id/Div3"
+        android:background="#c6a327"
+        android:layout_below="@+id/Lunch"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46pt"
+        android:id="@+id/AFmeal"
+        android:layout_below="@id/Div3"
+        android:background="#e90909"
+        android:weightSum="1"
+        android:paddingLeft="7pt"
+        android:paddingTop="2.5pt">
+
+        <TextView
+            android:id="@+id/fourth_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afternoon Meal"
+            android:textSize="13pt"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below= "@id/fourth_meal"
+            android:id="@+id/AFoptions">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/pickAFtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:layout_marginRight="2pt"
+            android:textSize="13pt"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch4"
+            android:layout_below="@id/pickAFtime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1pt"
+        android:id="@+id/Div4"
+        android:background="#c6a327"
+        android:layout_below="@+id/AFmeal"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46pt"
+        android:id="@+id/Dinner"
+        android:layout_below="@id/Div4"
+        android:layout_alignParentBottom="true"
+        android:background="#e90909"
+        android:weightSum="1"
+        android:paddingLeft="7pt"
+        android:paddingTop="2.5pt">
+
+        <TextView
+            android:id="@+id/fifth_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner"
+            android:textSize="13pt"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below= "@id/fifth_meal"
+            android:id="@+id/Dinneroptions">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/pickDinnertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:layout_marginRight="2pt"
+            android:textSize="13pt"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch5"
+            android:layout_below="@id/pickDinnertime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

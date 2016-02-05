@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.ttm.quaker.Community"
+    android:background="@drawable/sack_background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/contest_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/contest_image"/>
+            <TextView
+                android:id="@+id/contest_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contest_text"
+                android:layout_below="@+id/contest_image"
+                android:textColor="#000000" />
+            <Button
+                android:id="@+id/blogbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="29.5pt"
+                android:layout_below="@+id/contest_text"
+                android:layout_marginTop="6pt"
+                android:text="Go to blog"
+                    android:textAllCaps="false"
+                    android:textColor="#fefefefe"
+                    android:textSize="7pt"
+                android:background="#e90909"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

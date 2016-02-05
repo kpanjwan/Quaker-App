@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ttm.quaker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quaker_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/signup"></activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/main_menu"></activity>
+        <activity
+            android:name=".DDM"
+            android:label="@string/DDM"></activity>
+        <activity
+            android:name=".Community"
+            android:label="@string/Comm"></activity>
+        <activity
+            android:name=".Contest"
+            android:label="@string/Contest"></activity>
+        <activity
+            android:name=".MealReminder"
+            android:label="@string/Meals"></activity>
+        <activity
+            android:name=".SurprisingUses"
+            android:label="@string/Surprise"></activity>
+        <activity
+            android:name=".Restaurant"
+            android:label="@string/Resto"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewProduct"
+            android:label="@string/NP"></activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+
+        <activity
+            android:name=".why_should"
+            android:label="Why should I eat 5 meals a day?"></activity>
+        <activity
+            android:name=".TaWan"
+            android:label="@string/TaWan"></activity>
+        <activity
+            android:name=".TRF"
+            android:label="@string/TRF"></activity>
+        <activity
+            android:name=".Lai_Ching"
+            android:label="@string/LaiChing"></activity>
+        <activity
+            android:name=".Healthy_Choice"
+            android:label="@string/HealthyChoice"></activity>
+        <activity
+            android:name=".Healthy_Vege"
+            android:label="@string/HealthyVege"></activity>
+        <activity
+            android:name=".Healthy_Bread"
+            android:label="@string/HealthyBread"></activity>
+        <activity
+            android:name=".Sinar_Medan"
+            android:label="@string/SinarMedan"></activity>
+        <activity
+            android:name=".DailyRecipe"
+            android:label="@string/DailyRecipe"></activity>
+        <activity
+            android:name=".thousand_kcal"
+            android:label="@string/DDM"></activity>
+        <activity
+            android:name=".twelve_kcal"
+            android:label="@string/DDM"></activity>
+        <activity
+            android:name=".fifteen_kcal"
+            android:label="@string/DDM"></activity>
+        <activity
+            android:name=".twenty_kcal"
+            android:label="@string/DDM"></activity>
+        <activity android:name=".true_delights"></activity>
+        <activity android:name=".quaker_grits"></activity>
+        <activity android:name=".real_medleys"></activity>
+        <activity android:name=".instant_oatmeal"></activity>
+        <activity android:name=".community_blog"></activity>
+        <activity android:name=".View_Recipes"></activity>
+        <activity android:name=".pizza_oats"></activity>
+        <activity android:name=".UploadRecipe"></activity>
+    </application>
+
+</manifest>

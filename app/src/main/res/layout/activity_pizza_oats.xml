@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ttm.quaker.pizza_oats"
+    android:background="@drawable/sack_background">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/download_image"/>
+            <TextView
+                android:id="@+id/contest_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3pt"
+                android:textSize="10pt"
+                android:textColor="#000000"
+                android:layout_below="@+id/download_image"/>
+            <TextView
+                android:id="@+id/Ingridients_Contest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contest_title"
+                android:text="@string/Ingridients"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ingridients_List_Contest"
+                android:layout_below="@+id/Ingridients_Contest"
+                android:layout_marginTop="3pt"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/Steps_Contest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ingridients_List_Contest"
+                android:text="@string/Steps"
+                android:textColor="#000000"
+                android:layout_marginTop="3pt" />
+            <TextView
+                android:id="@+id/Steps_List_Contest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_below="@+id/Steps_Contest"
+                android:layout_marginTop="3pt"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

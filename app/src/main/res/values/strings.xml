@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Quaker</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="DDM">Daily Demand Calories</string>
+    <string name="Comm">Community</string>
+    <string name="Contest">Contest</string>
+    <string name="Meals">Meal Reminder</string>
+    <string name="NP">New Products</string>
+    <string name="Resto">Restaurants</string>
+    <string name="Surprise">Surprising Uses</string>
+    <string name="why">Why should I eat 5 meals a day? --> </string>
+    <string name="TaWan">Ta-Wan</string>
+    <string name="LaiChing">Lai Ching</string>
+    <string name="SinarMedan">Sinar Medan</string>
+    <string name="TRF">TRF Homemade</string>
+    <string name="HealthyChoice">Healthy Choice</string>
+    <string name="HealthyVege">Healthy Vege199</string>
+    <string name="HealthyBread">Healthy Bread</string>
+    <string name="DailyRecipe">Daily Recipe</string>
+    <string-array name="Genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Breakfast">
+        <item>Oatmeal based fruits</item>
+        <item>Banana-Nut Oatmeal</item>
+        <item>Chai Oatmeal</item>
+        <item>Maple Date-Nut Oatmeal</item>
+        <item>De-lish Oatmeal</item>
+    </string-array>
+    <string-array name="Brunch">
+        <item>Oatmeal shake</item>
+        <item>Oatmeal with mango</item>
+        <item>Apple Oatmeal</item>
+    </string-array>
+    <string-array name="Lunch">
+        <item>Muesli</item>
+        <item>Oat shake</item>
+        <item>Oatmeal with mushroom</item>
+        <item>Oatmeal porridge</item>
+    </string-array>
+    <string-array name="AFMeal">
+        <item>Muesli</item>
+        <item>Oat shake</item>
+        <item>Oatmeal with mushroom</item>
+        <item>Oatmeal porridge</item>
+        <item>Apple Oatmeal</item>
+    </string-array>
+    <string-array name="Dinner">
+        <item>Oat Shake</item>
+        <item>Oatmeal yoghurt</item>
+        <item>Vegetables</item>
+        <item>Oatmeal pie</item>
+        <item>Oatmeal pizza</item>
+    </string-array>
+    <string-array name="AddMeal">
+        <item>Oatmeal based fruits</item>
+        <item>Banana-Nut Oatmeal</item>
+        <item>Chai Oatmeal</item>
+        <item>Maple Date-Nut Oatmeal</item>
+        <item>De-lish Oatmeal</item>
+    </string-array>
+    <string name="intial">00:00</string>
+    <string name="why_intro"> The Five Meals a Day Plan: Why You Should be Eating Smaller Portions More Frequently.
+        \n\n
+        For the past few years, you may have begun to hear more and more people talking about eating five meals a day. While it has become a popular conversation piece, you may not understand exactly how it can help you improve your health. No matter whether you\'re trying to lose weight, control your blood sugar or ensure proper nutritional intake, 5 meals a day may be just what the doctor ordered
+        \n\n
+       <b>Weight Loss</b>
+        \n
+        One of the most important reasons why you should be eating smaller portions more frequently is because doing so can prevent the development of becoming overweight or obese. Research has found that people who eat only two or three large meals over the course of the day tend to eat more calories than people who break up their calories into five or six smaller meals. This appears to be in part due to the fact that when you eat breakfast at 7:00 in the morning, and then don\'t eat lunch until 1:00 in the afternoon, you are so hungry that you eat more calories that are necessary to help satiate your hunger. This overeating leads to increased calorie intake, and subsequent weight gain.
+        \n\n
+        <b>Steady Blood Sugar Levels</b>
+        \n
+        Another important reason why you should eat smaller portions more frequently is due to the effect that this habit can have on your blood sugar. While blood sugar is typically used most often in discussions about people with diabetes, it is also important for healthy people who do not suffer from this condition. Blood sugar helps to give you the energy and stamina you need to make it through the day. When you eat, your body breaks down the food, and the sugar that is released from food enters your bloodstream and becomes blood sugar. When you eat several small meals over the course of the day, you are getting a steady supply of blood sugar. When, in contrast, you eat only two or three large meals, you get a large dose of blood sugar, and then may not get any for another five or six hours. These large blood sugar spikes and crashes are not only the cause of feelings of fatigue, but can also wreak havoc with many of your body\'s natural processes.
+        \n\n
+        <b>Decreased Chance of Nutritional Deficiencies</b>
+        \n
+        Eating 5 meals a day may actually help to ensure you\'re getting all of the vitamins and minerals that you need to keep your body in proper working order. Research has found that people who eat several meals through the day tend to vary their diet more than those who simply eat two or three large meals. Getting the proper amount of vitamins, minerals and other nutrients is essential both for good health in people of all ages and genders.
+    </string>
+    <string name="Surprise_text">
+        1. Gentle Face Scrub : Slough away dead skin and leave your face glowing with this simple oatmeal face scrub recipe.
+\n\n
+2. Poison Oak Remedy : Poison oak is the pits, and oats can help sooth that itchy skin to give you some relief.
+\n\n
+3. Face Masks : Want a less abrasive alternative to the scrub above? Try this soothing oatmeal face mask for radiant skin.
+\n\n
+4. Make Flour : You can replace some or sometimes all of the white flour in your recipes with wholesome oat flour.
+\n\n
+5. Simple Hand Scrub : Mix oatmeal and water to make a paste for scrubbing dirty, greasy hands more gently.
+\n\n
+6. Kill Garden Slugs : Slugs will eat ground oats, which expand in their stomachs.
+\n\n
+7. Fix a Savory Breakfast : Put down the maple syrup and try this interesting recipe for savory oatmeal.
+\n\n
+8. Get Spooky : Stash this idea away for Halloween: oats add gruesome texture to your zombie makeup.
+\n\n
+9. Oatmeal Clay : Whip up a batch of edible play dough for your kids with oatmeal.
+\n\n
+10.	 Create Soothing Bath Bombs : You can scent these homemade bath bombs however you like with your favorite essential oils.
+    </string>
+    <string name="Ta_Wan_Address"> <b>Address:</b>
+        \n\n
+        FX Lifestyle X\'nter Lt. F2, Jl. Jendral Sudirman Pintu Satu Senayan, Jl. Jenderal Sudirman, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270, Indonesia
+    </string>
+    <string name="Ta_Wan_Name">Ta Wan - Sudirman, Jakarta</string>
+    <string name="Ta_Wan_Description">
+        Ta wan Restaurant started its business in 1996 in Megamal Pluit. In crisis economy time, so many resto failed, but Tawan survived and keep growing. Has its retail outlets  in Mal Taman Anggrek, Citraland and Plaza Setiabudi Building 1, Metropolitan Bekasi, Cibubur Juction, Pacific Place for quality Chinese menu and prices with the distinctive and variety of pureed food.
+        \n\n
+Rice porridge has been a constant part of life in Chinese societies since ancient times. Legend has it that it was a discovery of an imperial household. More likely, different people at different times and places, by a happy stroke of luck, added too much while cooking rice, resulting in porridge.
+    </string>
+    <string name="Ingridients"><b>Ingredients: </b> </string>
+    <string name="Steps"> <b>Steps:</b> </string>
+    <string name="ddm_thousang_kcal_title">Oatmeal with Strawberry and Coconut</string>
+    <string name="ddm_thousand_kcal">
+<b>Ingredients:</b> \n
+2 tablespoons unsweetened flaked coconut \n
+1 serving quick-cooking or old-fashioned rolled oats \n
+1 tablespoon brown sugar \n
+1/2 cup strawberry, chopped \n
+2 tablespoons cashews, chopped \n
+ \n\n
+<b>Directions:</b> \n
+1. Preheat oven to 350 F. Spread the coconut on a rimmed baking sheet and toast, tossing occasionally, until golden, 3 to 5 minutes. \n
+2. Prepare the oats according to the package directions. Stir in the brown sugar. Top with the strawberry, cashews and the coconut. \n
+ \n\n
+150 Kcal - 1 cup of cooked oatmeal \n
+230 Kcal - Add milk \n
+255 Kcal - Add banana \n
+170 Kcal - Add 1/4 cup scoop blueberries \n
+210 Kcal - Add a tablespoon of chocolate chips \n
+190 Kcal - Add Walnuts \n
+200 Kcal - Add brown sugar \n
+215 Kcal - Add a tablespoon of honey \n
+    </string>
+    <string name="true_delights">True Delights \n
+Apple and Cranberries</string>
+    <string name="quaker_grits">Quaker GRITS \n
+Quick - 5 Minutes</string>
+    <string name="real_medley">REAL MEDLEYS \n
+Apple Walnuts Oatmeal</string>
+    <string name="instant_oatmeal">Instant Oatmeal \n
+Apple and Cranberries
+    </string>
+    <string name="contest_text">
+        Helps you find your health news on food, nutrition, diet, fitness, speciality store or product. Ask the experts and start enjoy your life with healthy body, Quaker Oats community also aims to increase amounts of health data captured in digital forms.
+    </string>
+</resources>
